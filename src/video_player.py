@@ -12,6 +12,7 @@ class video_state(enum.Enum):
     Stop = 3
     Continue = 4
 
+
 class video_under_process:
     def __init__(self):
         self.video = None
